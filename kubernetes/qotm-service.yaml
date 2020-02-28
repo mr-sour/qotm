@@ -45,7 +45,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: quotev2
+      app: quote
   strategy:
     type: RollingUpdate
   template:
