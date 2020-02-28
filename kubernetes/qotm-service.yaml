@@ -51,7 +51,7 @@ spec:
   template:
     metadata:
       labels:
-        app: quotev2
+        app: quote
     spec:
       containers:
       - name: backend
