@@ -55,7 +55,7 @@ metadata:
   name: quotev2
   namespace: ambassador
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: quotev2
