@@ -13,5 +13,6 @@ kind:  Mapping
 metadata:
   name:  quote-backendv2
 spec:
-  prefix: /backendv2/
+  prefix: /backend/
   service: quotev2
+  weight: 10
