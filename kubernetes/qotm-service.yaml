@@ -18,7 +18,7 @@ metadata:
   name: quote
   namespace: ambassador
 spec:
-  replicas: 1
+  replicas: 100
   selector:
     matchLabels:
       app: quote
