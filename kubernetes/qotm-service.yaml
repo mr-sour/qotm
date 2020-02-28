@@ -39,7 +39,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quote
+  name: quotev2
   namespace: ambassador
 spec:
   replicas: 2
