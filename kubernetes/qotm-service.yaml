@@ -39,19 +39,19 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quotev2
+  name: quote
   namespace: ambassador
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: quotev2
+      app: quote
   strategy:
     type: RollingUpdate
   template:
     metadata:
       labels:
-        app: quotev2
+        app: quote
     spec:
       containers:
       - name: backend
