@@ -47,7 +47,7 @@ spec:
     port: 80
     targetPort: 8080
   selector:
-    app: quote
+    app: quotev2
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -58,7 +58,7 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: quote
+      app: quotev2
   strategy:
     type: RollingUpdate
   template:
