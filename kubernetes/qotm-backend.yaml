@@ -7,4 +7,12 @@ metadata:
 spec:
   prefix: /backend/
   service: quote
-
+---
+apiVersion: getambassador.io/v2
+kind:  Mapping
+metadata:
+  name:  quote-backendv2
+spec:
+  prefix: /backend/
+  service: quotev2
+  weight: 10
