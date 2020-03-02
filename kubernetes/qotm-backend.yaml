@@ -13,6 +13,6 @@ kind:  Mapping
 metadata:
   name:  quote-backend-canary
 spec:
-  prefix: /backend/
+  prefix: /backendother/
   service: quote-canary
-  weight: 10
+
