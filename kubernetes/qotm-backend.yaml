@@ -7,12 +7,4 @@ metadata:
 spec:
   prefix: /backend/
   service: quote
----
-apiVersion: getambassador.io/v2
-kind:  Mapping
-metadata:
-  name: quote-canary
-spec:
-  prefix: /backendother/
-  service: quote-canary
 
