@@ -2,7 +2,7 @@
 apiVersion: getambassador.io/v2
 kind:  Mapping
 metadata:
-  name: quote-canary
+  name: quote-canary-backend
 spec:
   prefix: /backendother/
-  service: quote-canary
+  service: quotecanary
