@@ -18,7 +18,7 @@ metadata:
   name: qotm-shadow
   namespace: ambassador
 spec:
-  replicas: 2
+  replicas: 20
   selector:
     matchLabels:
       app: qotm-shadow
