@@ -11,16 +11,16 @@ spec:
 apiVersion: getambassador.io/v2
 kind:  Mapping
 metadata:
-  name:  quote-backendv2
+  name:  quote-backend-canary
 spec:
   prefix: /backend/
-  service: quotev2
+  service: quote-canary
   weight: 10
 ---
 apiVersion: getambassador.io/v2
 kind:  Mapping
 metadata:
-  name:  qotm-shadow
+  name:  qotm-backend-shadow
 spec:
   prefix: /backend/
   service: qotm-shadow
