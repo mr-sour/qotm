@@ -15,7 +15,7 @@ metadata:
 spec:
   prefix: /backend/
   service: quote-canary
-  weight: 66
+  weight: 10
 ---
 apiVersion: getambassador.io/v2
 kind:  Mapping
