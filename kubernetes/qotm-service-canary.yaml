@@ -18,7 +18,7 @@ metadata:
   name: quote-canary
   namespace: ambassador
 spec:
-  replicas: 9
+  replicas: 2
   selector:
     matchLabels:
       app: quote-canary
